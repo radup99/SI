@@ -32,7 +32,7 @@ def CFB_dec(enc_text, key):
 
         dec_block = XOR(prev_block, block)
         dec_text += dec_block
-        prev_block = block
+        prev_block = prev_block = cipher.encrypt(block)
 
     unpad(dec_text)
     return dec_text.decode('utf-8')

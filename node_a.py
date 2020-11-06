@@ -32,7 +32,7 @@ def CFB_enc(text, key):
 
         enc_block = XOR(prev_block, block)
         enc_text += enc_block
-        prev_block = enc_block
+        prev_block = cipher.encrypt(enc_block)
 
     return enc_text
 
