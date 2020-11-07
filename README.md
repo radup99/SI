@@ -2,9 +2,9 @@
 Instructiuni:
 
 Executarea nodurilor:
-python km.py
-python node_a.py
-python node_b.py
+- python km.py
+- python node_a.py
+- python node_b.py
 
 Comunicarea intre noduri:
 Dupa ce cele 3 noduri au fost pornite, nodul A trebuie sa primeasca de la tastatura numele modului de operare dorit (ECB sau CFB).
